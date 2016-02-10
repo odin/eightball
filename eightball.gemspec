@@ -6,12 +6,12 @@ require 'eightball/version'
 Gem::Specification.new do |spec|
   spec.name          = "eightball"
   spec.version       = Eightball::VERSION
-  spec.authors       = ["Odin <at> Asgard"]
+  spec.authors       = ["odin (Casey Ellett)"]
   spec.email         = ["casey.ellett@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{This is a gem that recreates the classic Magic Eightball}
+  spec.description   = %q{}
+  spec.homepage      = "https://github.com/odin/eightball"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
@@ -28,6 +28,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.11"
+  spec.add_development_dependency "guard"
+  spec.add_development_dependency "guard-minitest"
+  spec.add_development_dependency "minitest"
+  spec.add_development_dependency "minitest-reporters"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.0"
 end

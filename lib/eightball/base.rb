@@ -7,13 +7,13 @@ module Eightball
       @question = question
       @answer   = Eightball::Answers.new.content.sample
 
-      puts self.display
+      puts display
 
-      return self
+      self
     end
 
     def display
-      "\nQuestion: #{self.question}\n\nAnswer: #{self.answer}"
+      "\nQuestion: #{question}\n\nAnswer: #{answer}"
     end
   end
 end

@@ -1,4 +1,4 @@
-require "eightball/version"
-require "eightball/answers"
-require "eightball/base"
-require "eightball/cli"
+require 'eightball/version'
+require 'eightball/answers'
+require 'eightball/base'
+require 'eightball/cli'

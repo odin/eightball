@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require "bundler/setup"
-require "eightball"
+require 'bundler/setup'
+require 'eightball'
 
-require "pry"
+require 'pry'
 Pry.start

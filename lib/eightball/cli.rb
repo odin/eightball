@@ -2,7 +2,7 @@ require 'thor'
 
 module Eightball
   class Cli < Thor
-    desc "ask QUESTION", "This will answer your question"
+    desc 'ask QUESTION', 'This will answer your question'
     long_desc <<-ASK_QUESTION
 
     ASK_QUESTION

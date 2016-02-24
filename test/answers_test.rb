@@ -3,8 +3,8 @@ require 'minitest/autorun'
 
 require 'eightball'
 
-describe Eightball::ANSWERS do
-  let(:answers) { Eightball::ANSWERS }
+describe Eightball::Answers do
+  let(:answers) { Eightball::Answers.new.content }
 
   it 'should return an array' do
     answers.must_be_instance_of(Array)

@@ -8,7 +8,7 @@ describe Eightball::Base do
 
   describe 'Answers' do
     it 'should return a string that is in the answers array' do
-      Eightball::Answers.new.content.must_include(base.answer)
+      Eightball::Answers.content.must_include(base.answer)
     end
   end
 

@@ -5,7 +5,7 @@ module Eightball
 
     def ask(question)
       @question = question
-      @answer   = Eightball::Answers.new.content.sample
+      @answer   = Eightball::Answers.content.sample
 
       puts display
 

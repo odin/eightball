@@ -1,8 +1,6 @@
 module Eightball
   class Answers
-    attr_accessor :content
-
-    def initialize
+    def self.content
       @content = [
         'It is certain',
         'It is decidedly so',
